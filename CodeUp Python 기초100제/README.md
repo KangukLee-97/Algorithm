@@ -1,4 +1,4 @@
-# CodeUp Python 기초100제
+# CodeUp Python 기초100제 (완료)
 이것이 코딩테스트다 with Python 풀이 전 Python 문법을 가지고 어렵다고 생각한 문제 풀이
 
 ### 참고
