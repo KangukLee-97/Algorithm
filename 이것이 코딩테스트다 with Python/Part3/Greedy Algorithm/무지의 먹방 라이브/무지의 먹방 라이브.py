@@ -1,3 +1,8 @@
+"""
+2019년 카카오 신입 공채 문제
+https://programmers.co.kr/learn/courses/30/lessons/42891
+"""
+
 import heapq   # 우선순위 큐를 사용하기 위한 라이브러리
 
 food_times = list(map(int, input().split()))
