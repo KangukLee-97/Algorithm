@@ -7,6 +7,7 @@ s = input()   # 알파벳 소문자로만 이루어진 문자열
 
 
 def solution(s):
+    answer = 0
     length = len(s)   # 문자열의 길이
     result_arr = []   # 각 step마다 나온 문자열의 길이를 담을 배열
     for i in range(1, (length//2 + 1)):   # 예를 들어, 길이가 총 12이면 6덩어리까지 나눌 수 있음.
@@ -25,7 +26,8 @@ def solution(s):
         temp += str(count) + first if count >= 2 else first
         result_arr.append(len(temp))   # 문자열 길이 배열에 해당 문자열의 길이 push
 
-    return min(result_arr)   # 배열에서 최소값 return
+    answer = min(result_arr)   # 배열에서 최소값 return
+    return answer
 
 
 print(solution(s))
